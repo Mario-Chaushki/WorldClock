@@ -15,6 +15,7 @@
         public TimerForm()
         {
             InitializeComponent();
+            //TODO: fix stuff
         }
     }
 }
