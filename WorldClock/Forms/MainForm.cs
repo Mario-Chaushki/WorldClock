@@ -30,6 +30,7 @@
 
         public void StartClock(object sender, EventArgs e)
         {
+           
             this.timeBox.Text = DateTime.Now.ToString("HH:mm:ss");
         }
     }

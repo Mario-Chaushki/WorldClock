@@ -43,6 +43,7 @@ namespace WorldClock.Forms
             this.timeBox.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.timeBox.Enabled = false;
             this.timeBox.Font = new System.Drawing.Font("Times New Roman", 32F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))));
+            this.timeBox.ForeColor = System.Drawing.SystemColors.MenuHighlight;
             this.timeBox.Location = new System.Drawing.Point(13, 116);
             this.timeBox.Name = "timeBox";
             this.timeBox.Size = new System.Drawing.Size(237, 50);
@@ -52,6 +53,7 @@ namespace WorldClock.Forms
             // 
             // chronometerButton
             // 
+            this.chronometerButton.ForeColor = System.Drawing.Color.DarkSlateGray;
             this.chronometerButton.Location = new System.Drawing.Point(93, 12);
             this.chronometerButton.Name = "chronometerButton";
             this.chronometerButton.Size = new System.Drawing.Size(75, 23);
@@ -61,6 +63,7 @@ namespace WorldClock.Forms
             // 
             // timerButton
             // 
+            this.timerButton.ForeColor = System.Drawing.Color.DarkSlateGray;
             this.timerButton.Location = new System.Drawing.Point(174, 12);
             this.timerButton.Name = "timerButton";
             this.timerButton.Size = new System.Drawing.Size(75, 23);
@@ -70,6 +73,7 @@ namespace WorldClock.Forms
             // 
             // calendarButton
             // 
+            this.calendarButton.ForeColor = System.Drawing.Color.DarkSlateGray;
             this.calendarButton.Location = new System.Drawing.Point(12, 12);
             this.calendarButton.Name = "calendarButton";
             this.calendarButton.Size = new System.Drawing.Size(75, 23);
